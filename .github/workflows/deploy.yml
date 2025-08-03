@@ -30,11 +30,7 @@ jobs:
 
       - name: Install dependencies with retries
         run: |
-          for i in 1 2 3; do
-            npm ci && break
-            echo "npm ci failed, retrying ($i)..."
-            sleep 5
-          done
+          npm install
 
       - name: Build static export
         run: npm run build
