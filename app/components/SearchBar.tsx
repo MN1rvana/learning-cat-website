@@ -21,7 +21,7 @@ export default function SearchBar({ onSearch, searchTerm }: SearchBarProps) {
       <div className="relative max-w-md mx-auto">
         <input
           type="text"
-          placeholder="🔍 Search cats by name or tags..."
+          placeholder="Search cats by name or tags..."
           value={searchTerm}
           onChange={handleInputChange}
           className="w-full px-4 py-3 pl-12 border-2 border-gray-200 rounded-full focus:border-orange-500 focus:outline-none transition-colors"
