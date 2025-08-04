@@ -57,9 +57,9 @@ export default function CatCollectionApp() {
     <div className="min-h-screen bg-gradient-to-br from-orange-50 to-pink-50">
       <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
 
-      <main className="max-w-7xl mx-auto px-4 py-8">{renderCurrentPage()}</main>
+      <main className="max-w-7xl mx-auto px-4 py-8 mb-40">{renderCurrentPage()}</main>
 
-      <footer className="bg-gray-800 text-white text-center py-6 mt-12">
+      <footer className="bg-gray-800 text-white text-center py-3 mt-12 w-full fixed bottom-0">
         <p>🐾 Made with love for cat enthusiasts 🐾</p>
       </footer>
     </div>
