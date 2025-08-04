@@ -86,9 +86,7 @@ export default function AboutPage() {
               Have suggestions or want to share your cat stories? We'd love to hear from you!
             </p>
             <div className="space-y-2 text-gray-600">
-              <p>📧 Email: hello@catcollection.com</p>
-              <p>🐦 Twitter: @CatCollection</p>
-              <p>📸 Instagram: @CatCollectionApp</p>
+              <p>📸 Instagram: <a href='https://www.instagram.com/murmuringcats' target='_blank'>https://www.instagram.com/murmuringcats/</a></p>
             </div>
           </section>
         </div>
