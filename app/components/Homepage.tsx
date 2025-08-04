@@ -88,7 +88,7 @@ export default function Homepage({ cats }: HomepageProps) {
       {/* Hero Section */}
       <div className="text-center">
         <h1 className="text-5xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent mb-4">
-          🐱 Welcome to Cat Collection
+          🐱 Cat Collection
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">Show your best feline friends to the world now!</p>
       </div>

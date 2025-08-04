@@ -12,7 +12,7 @@ interface FilterButtonsProps {
 
 export default function FilterButtons({ activeFilters, onFilterChange, onClearFilters }: FilterButtonsProps) {
   const colorOptions = [
-    { value: "all", label: "All Colors" },
+    { value: "all", label: "Colors" },
     { value: "orange", label: "🧡 Orange" },
     { value: "black", label: "🖤 Black" },
     { value: "white", label: "🤍 White" },
@@ -21,7 +21,7 @@ export default function FilterButtons({ activeFilters, onFilterChange, onClearFi
   ]
 
   const personalityOptions = [
-    { value: "all", label: "All Personalities" },
+    { value: "all", label: "Personalities" },
     { value: "playful", label: "🎾 Playful" },
     { value: "calm", label: "😌 Calm" },
     { value: "curious", label: "🤔 Curious" },
@@ -29,14 +29,14 @@ export default function FilterButtons({ activeFilters, onFilterChange, onClearFi
   ]
 
   const ageOptions = [
-    { value: "all", label: "All Ages" },
+    { value: "all", label: "Ages" },
     { value: "young", label: "🐱 Young (0-2)" },
     { value: "adult", label: "🐈 Adult (3-5)" },
     { value: "senior", label: "🐈‍⬛ Senior (6+)" },
   ]
 
   return (
-    <div className="flex flex-wrap gap-4 justify-center items-center">
+    <div className="flex flex-wrap gap-4 justify-start items-center">
       <div className="flex items-center space-x-2">
         <label className="font-medium text-gray-700">Color:</label>
         <select

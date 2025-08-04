@@ -20,7 +20,7 @@ export default function Navigation({ currentPage, setCurrentPage }: NavigationPr
             onClick={() => setCurrentPage("home")}
             className="text-2xl font-bold text-orange-500 hover:text-orange-600 transition-colors"
           >
-            🐱 Cat Collection
+            🐱 
           </button>
 
           <div className="flex space-x-8">
