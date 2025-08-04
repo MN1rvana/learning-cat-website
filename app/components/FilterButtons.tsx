@@ -17,6 +17,7 @@ export default function FilterButtons({ activeFilters, onFilterChange, onClearFi
     { value: "black", label: "🖤 Black" },
     { value: "white", label: "🤍 White" },
     { value: "gray", label: "🩶 Gray" },
+    { value: "brown", label: "🤎 Brown" },
   ]
 
   const personalityOptions = [

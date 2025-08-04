@@ -38,6 +38,7 @@ export default function CatCard({ cat, onRemove}: CatCardProps) {
       black: "🖤",
       white: "🤍",
       gray: "🩶",
+      brown: "🤎"
     };
     return colorMap[color] || "💙";
   };
