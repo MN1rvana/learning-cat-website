@@ -175,6 +175,7 @@ export default function CatForm({ onSubmit }: CatFormProps) {
             <option value="black">🖤 Black</option>
             <option value="white">🤍 White</option>
             <option value="gray">🩶 Gray</option>
+            <option value="brown">🤎 Brown</option>
           </select>
           {errors.color && <p className="text-red-500 text-sm mt-1">{errors.color}</p>}
         </div>
